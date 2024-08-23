@@ -9,11 +9,11 @@ import { toast } from "react-toastify";
 
 const firebaseConfig = {
   apiKey: "-",
-  authDomain: "netflix-clone-68f12.firebaseapp.com",
-  projectId: "netflix-clone-68f12",
-  storageBucket: "netflix-clone-68f12.appspot.com",
-  messagingSenderId: "44884982546",
-  appId: "1:44884982546:web:2fc112de68379684ef11cb"
+  authDomain: "-",
+  projectId: "-",
+  storageBucket: "-",
+  messagingSenderId: "-",
+  appId: "-"
 };
 
 const app = initializeApp(firebaseConfig);
