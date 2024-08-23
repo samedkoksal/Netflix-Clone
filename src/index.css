@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #141414;
+    color: white;
+}
+
+.card-list::-webkit-scrollbar {
+    display: none;
+}
+  
+  #profile:hover #down-btn,
+  #profile:focus-within #down-btn,
+  #down-btn:hover {
+    display: block;
+  }
+
+
+
